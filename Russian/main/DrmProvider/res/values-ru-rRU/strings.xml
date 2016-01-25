@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Хранилище защищенного DRM контента</string>
+    <string name="permlab_accessDrm">Доступ к защищенному DRM контенту.</string>
+    <string name="permdesc_accessDrm">Позволять приложению получать доступ к защищенному DRM контенту.</string>
+    <string name="permlab_installDrm">Установить защищенный DRM контент</string>
+    <string name="permdesc_installDrm">Позволять приложению устанавливать защищенный DRM контент.</string>
+</resources>

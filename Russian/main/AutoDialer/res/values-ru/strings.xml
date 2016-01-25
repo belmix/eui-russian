@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Автонабор</string>
+    <string name="action_settings">Настройки</string>
+    <string name="start_test_off">Начать тест (ВЫКЛ.)</string>
+    <string name="start_test_on">Остановить тест (ВКЛ.)</string>
+    <string name="loops">Циклы</string>
+    <string name="delete">Удалить</string>
+    <string name="hot">горячо</string>
+    <string name="warm">тепло</string>
+    <string name="cold">холодно</string>
+    <string name="full">заполнено</string>
+    <string name="phone">Телефон</string>
+    <string name="phone_edit">Редактировать</string>
+    <string name="end_call">Окончание звонка</string>
+    <string name="phone_call">Продолжительность звонка</string>
+    <string name="settings">Настройки</string>
+</resources>

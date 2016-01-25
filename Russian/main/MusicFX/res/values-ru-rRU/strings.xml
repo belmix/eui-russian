@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="presetreverb_name">Предустановки ревербации</string>
+    <string name="eq_preset_normal">Нормальный</string>
+    <string name="eq_preset_classical">Классический</string>
+    <string name="eq_preset_dance">Танцевальный</string>
+    <string name="eq_preset_flat">Плоский</string>
+    <string name="eq_preset_folk">Фолк</string>
+    <string name="eq_preset_heavymetal">Тяжелый металл</string>
+    <string name="eq_preset_hiphop">Хип хоп</string>
+    <string name="eq_preset_jazz">Джаз</string>
+    <string name="eq_preset_pop">Поп</string>
+    <string name="eq_preset_rock">Рок</string>
+    <string name="app_name">MusicFX</string>
+    <string name="no_effects">Эффекты не доступны</string>
+    <string name="main_toggle_effects_title">Аудио эффекты</string>
+    <string name="eq_dialog_title">Эквалайзер</string>
+    <string name="headset_plug">Для этих эффектов подключите наушники</string>
+    <string name="bass_boost_strength">Усилить басы</string>
+    <string name="virtualizer_strength">Объемный звук</string>
+    <string name="pr_title">Ревербация:</string>
+    <string name="pr_summary">Дополнительные эффекты ревербации</string>
+    <string name="pr_dialog_title">Ревербация по умолчанию</string>
+    <string name="setup">Настроить</string>
+    <string name="ci_extreme">FX усилитель</string>
+    <string name="user">Пользовательские</string>
+    <string name="picker_title">Контрольная панель музыкальных эффектов</string>
+</resources>

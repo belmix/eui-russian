@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="def_device_name">%2$s %1$s</string>
+    <string name="def_device_name_simple">%1$s</string>
+    <string name="def_temp_phone_name">LeTV X600</string>
+    <string name="def_landscape_launcher">ни один</string>
+    <string name="mtk_rtsp_name">Потоковое</string>
+    <string name="app_label">Настройки места хранения</string>
+</resources>

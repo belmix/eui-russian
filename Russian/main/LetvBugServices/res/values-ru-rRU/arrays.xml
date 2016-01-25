@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="service_city">
+        <item>шанхай</item>
+        <item>дунгуань</item>
+        <item>линьфэнь</item>
+        <item>линьи</item>
+        <item>в урумчи</item>
+        <item>фошань</item>
+        <item>ланьчжоу</item>
+        <item>баотоу</item>
+        <item>пекин</item>
+        <item>нанкин</item>
+        <item>наньнин</item>
+        <item>наньчан</item>
+        <item>сямынь</item>
+        <item>хэфэй</item>
+        <item>хух - хото</item>
+        <item>харбин</item>
+        <item>таншань</item>
+        <item>далянь</item>
+        <item>тяньцзинь</item>
+        <item>тайюань</item>
+        <item>гуанчжоу</item>
+        <item>сюйчжоу</item>
+        <item>хойчжоу</item>
+        <item>чэнду</item>
+        <item>уси</item>
+        <item>ханчжоу</item>
+        <item>ухань</item>
+        <item>шэньян</item>
+        <item>лоян</item>
+        <item>"ji'nan"</item>
+        <item>хайкоу</item>
+        <item>цзыбо</item>
+        <item>шэньчжэнь</item>
+        <item>сучжоу</item>
+        <item>хэцзэ</item>
+        <item>"xi'ning"</item>
+        <item>сиань</item>
+        <item>гуйян</item>
+        <item>чжэнчжоу</item>
+        <item>чунцин</item>
+        <item>иньчуань</item>
+        <item>чжэньцзян</item>
+        <item>чанчунь</item>
+        <item>чанша</item>
+        <item>циндао</item>
+        <item>датун</item>
+        <item>фучжоу</item>
+        <item>цзиньчэн</item>
+        <item>куньмин</item>
+        <item>куньшань</item>
+        <item>нинбо</item>
+        <item>шицзячжуан</item>
+        <item>вэньчжоу</item>
+    </string-array>
+    <string-array name="bug_type_list">
+        <item>@string/bug_type_talk_sms</item>
+        <item>@string/bug_type_camera_gallery</item>
+        <item>@string/bug_type_wifi_net</item>
+        <item>@string/bug_type_system_player</item>
+        <item>@string/bug_type_system_upgrade</item>
+        <item>@string/bug_type_letv_account</item>
+        <item>@string/bug_type_other_sys_app</item>
+        <item>@string/bug_type_mine_app</item>
+        <item>@string/bug_type_performance_battery</item>
+        <item>@string/bug_type_hardware_quality</item>
+        <item>@string/bug_type_suggestions</item>
+    </string-array>
+    <string-array name="bug_type_list_values">
+        <item>РАЗГОВОР СМС</item>
+        <item>КАМЕРА ГАЛЕРЕЯ</item>
+        <item>СЕТИ WIFI</item>
+        <item>СИСТЕМА ИГРОКА</item>
+        <item>Обновление системы</item>
+        <item>Letv аккаунт</item>
+        <item>ДРУГИЕ ПРИЛОЖЕНИЕ</item>
+        <item>МОИ ПРИЛОЖЕНИЕ</item>
+        <item>ПРОИЗВОДИТЕЛЬНОСТЬ БАТАРЕИ</item>
+        <item>hardware_quality</item>
+        <item>ПРЕДЛОЖЕНИЯ</item>
+    </string-array>
+    <string-array name="bug_frequency_list">
+        <item>@string/often</item>
+        <item>@string/sometimes</item>
+        <item>@string/low</item>
+        <item>@string/only_once</item>
+    </string-array>
+    <string-array name="bug_frequency_list_values">
+        <item>@string/often_value</item>
+        <item>@string/sometimes_value</item>
+        <item>@string/low_value</item>
+        <item>@string/only_once_value</item>
+    </string-array>
+    <string-array name="log_type_list">
+        <item>@string/field_trial</item>
+        <item>@string/factory_debug</item>
+        <item>@string/framework_debug</item>
+        <item>@string/user_define</item>
+    </string-array>
+    <string-array name="log_type_list_values">
+        <item>полевое испытание</item>
+        <item>фабрика отладки</item>
+        <item>основы отладки</item>
+        <item>пользователем</item>
+    </string-array>
+    <string-array name="service_number_list">
+        <item>@string/service_number_1</item>
+    </string-array>
+    <string-array name="system_section_list">
+        <item>@string/notification_center</item>
+        <item>@string/control_center</item>
+        <item>@string/power_up_down</item>
+        <item>@string/muti_task</item>
+        <item>@string/hardware</item>
+        <item>@string/key_guard</item>
+        <item>@string/launcher</item>
+        <item>@string/location_service</item>
+        <item>@string/network</item>
+        <item>@string/status_bar</item>
+    </string-array>
+    <string-array name="app_section_list">
+        <item>@string/dialer_and_contact</item>
+        <item>@string/sms</item>
+        <item>@string/browser</item>
+        <item>@string/music</item>
+        <item>@string/video</item>
+        <item>@string/camera</item>
+        <item>@string/gallery</item>
+        <item>@string/weather</item>
+        <item>@string/calendar</item>
+        <item>@string/mail</item>
+        <item>@string/yellow_page</item>
+        <item>@string/clock</item>
+        <item>@string/calculator</item>
+        <item>@string/notes</item>
+        <item>@string/remote_control</item>
+        <item>@string/voice_recorder</item>
+        <item>@string/file_manager</item>
+        <item>@string/app_store</item>
+        <item>@string/voice_assistant</item>
+        <item>@string/input_method</item>
+        <item>@string/wallpaper</item>
+        <item>@string/setting</item>
+        <item>@string/download_manager</item>
+        <item>@string/system_upgrade</item>
+        <item>@string/bug_reporter</item>
+        <item>@string/theme</item>
+        <item>@string/account_cloud_service</item>
+    </string-array>
+    <string-array name="other_section_list">
+        <item>@string/others</item>
+    </string-array>
+    <string-array name="more_action_list">
+        <item>Пожалуйста, свяжитесь с нами</item>
+        <item>Лог не отправляется</item>
+    </string-array>
+</resources>

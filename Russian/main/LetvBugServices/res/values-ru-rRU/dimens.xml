@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16.0dip</dimen>
+    <dimen name="activity_vertical_margin">16.0dip</dimen>
+    <dimen name="constract_service">54.0dip</dimen>
+    <dimen name="constract_service_margin">16.0dip</dimen>
+    <dimen name="weixin_layout_height">82.0dip</dimen>
+    <dimen name="siyuan_title_size">16.0sp</dimen>
+    <dimen name="siyuan_content_size">12.0sp</dimen>
+    <dimen name="customer_text_margin_left">82.0dip</dimen>
+    <dimen name="customer_text_margin_top">22.0dip</dimen>
+    <dimen name="bottom_image_size">28.0dip</dimen>
+    <dimen name="smail_listview_gap">60.0dip</dimen>
+    <dimen name="gap_line">0.5dip</dimen>
+    <dimen name="app_icon_width">32.0dip</dimen>
+    <dimen name="app_icon_height">32.0dip</dimen>
+    <dimen name="icon_width">32.0dip</dimen>
+</resources>

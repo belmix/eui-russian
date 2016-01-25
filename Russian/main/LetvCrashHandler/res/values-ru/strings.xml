@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ловец крашей</string>
+    <string name="hello_world">Привет всему миру!</string>
+    <string name="action_settings">Настройки</string>
+    <string name="simu_bsp_bug">Имитация BSP бага</string>
+    <string name="start_me">автозапуск</string>
+</resources>

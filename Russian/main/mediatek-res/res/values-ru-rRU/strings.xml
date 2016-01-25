@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="config_mm_package_name">com.aspire.mm</string>
+    <string name="badPin2">Старый PIN2 не правильный.</string>
+    <string name="badPuk2">Код PUK2 не правильный.</string>
+    <string name="checkPwdLen">Введите пароль от 4 до 8 цифр</string>
+    <string name="pinNotEnabled">Активизируйте PIN-код, прежде чем изменить его.</string>
+    <string name="puk1Blocked">PIN заблокирован.</string>
+    <string name="puk2Blocked">PIN2 заблокирован.</string>
+    <string name="fdnFailMmi">Сбой FDN Check.</string>
+    <string name="callBarringFailMmi">Сбой - запрет вызовов.</string>
+    <string name="Pin2Mmi">PIN2 изменён</string>
+    <string name="PukMmi">Разблокировать PIN-код</string>
+    <string name="Puk2Mmi">Разблокировать PIN2-код</string>
+    <string name="serviceProvisioned">Сервис предусмотрен</string>
+    <string name="serviceUnknown">Проблема подключения или неверный код MMI.</string>
+    <string name="cfServiceNotForwarded">Не отправлено</string>
+    <string name="wday_year_month_day" formatted="false">%s, %s %s %s</string>
+    <string name="wday_year_day_month" formatted="false">%s, %s %s %s</string>
+    <string name="wday_month_day_year" formatted="false">%s, %s %s, %s</string>
+    <string name="wday_month_year_day" formatted="false">%s, %s %s %s</string>
+    <string name="wday_day_month_year" formatted="false">%s, %s %s %s</string>
+    <string name="wday_day_year_month" formatted="false">%s, %s %s %s</string>
+    <string name="invalidPuk">Введите 8 цифр</string>
+    <string name="year_month_day_wday" formatted="false">%s %s %s, %s</string>
+    <string name="year_day_month_wday" formatted="false">%s %s %s, %s</string>
+    <string name="month_day_year_wday" formatted="false">%s %s, %s, %s</string>
+    <string name="month_year_day_wday" formatted="false">%s %s %s, %s</string>
+    <string name="day_month_year_wday" formatted="false">%s %s %s, %s</string>
+    <string name="invalid_imei">Не верный IMEI</string>
+    <string name="same_imei">Тот же IMEI</string>
+    <string name="oper_long_46000">CMCC</string>
+    <string name="oper_long_46001">CU</string>
+    <string name="oper_long_46601">Far EasTone</string>
+    <string name="oper_long_46692">Chunghwa Telecom</string>
+    <string name="oper_long_46697">Taiwan Mobile</string>
+    <string name="oper_long_99998">Android1</string>
+    <string name="oper_long_99999">Android</string>
+    <string name="oper_short_46000">CMCC</string>
+    <string name="oper_short_46001">CU-GSM</string>
+    <string name="oper_short_46601">FET</string>
+    <string name="oper_short_46692">Chunghwa</string>
+    <string name="oper_short_46697">TWN</string>
+    <string name="oper_short_99997">AD1</string>
+    <string name="oper_short_99999">AD</string>
+    <string name="oper_long_46020">CTT</string>
+    <string name="oper_short_46020">CTT</string>
+    <string name="day_year_month_wday" formatted="false">%s %s %s, %s</string>
+    <string name="permdesc_receiveCbSms">"Позволяет программе получать и обрабатывать SMS-сообщения.\u000d
+Вредоносные программы могут отслеживать ваши сообщения или удалять их, не показывая вам."</string>
+    <string name="permdesc_receiveDmRegisterSms">"Позволяет программе получать и обрабатывать SMS-DM  сообщения.\u000d
+Любое приложение, кроме DM приложение не должны использовать это"</string>
+    <string name="VideoView_error_text_invalid_connection">Ошибка соединения. (403 Forbidden)</string>
+    <string name="new_sim">Новая СИМ</string>
+    <string name="delete">Удалить</string>
+    <string name="searching_simcard">Проверка...</string>
+    <string name="lockscreen_pin_too_many_failed_attempts_dialog_message" formatted="false">Вы неправильно ввели пин-код %d раз. Пожалуйста, попробуйте еще через %d секунд.</string>
+    <string name="lockscreen_password_too_many_failed_attempts_dialog_message" formatted="false">Вы неправильно ввели пароль %d раз. Пожалуйста, попробуйте еще через %d секунд.</string>
+    <string name="wap_browser_pakcage">com.myriad.android.kunbrowser</string>
+    <string name="wap_browser_component">com.myriad.android.kunbrowser.BrowserActivity</string>
+    <string name="sim_close">СИМ карта заблокирована</string>
+    <string name="wap_browser_keyword">s.139.com</string>
+    <string name="wap_browser_url_flag">поиск_url</string>
+    <string name="aerr_application_lowstorage">Внутренняя память заполнена, приложение было остановлено. Пожалуйста, освободить место и повторите попытку.</string>
+    <string name="aerr_process_lowstorage">Внутренняя память работает, процесс был остановлен. Пожалуйста, освободить место и повторите попытку.</string>
+    <string name="low_internal_storage_view_title">Внутренняя память заполнена</string>
+    <string name="low_storage_warning_message">Пожалуйста освободите место для улучшения работы</string>
+    <string name="deleteMails">Удалить письма</string>
+    <string name="drm_protection_status">Защита:</string>
+    <string name="drm_can_forward">Отправляется.</string>
+    <string name="drm_can_not_forward">Не может быть отправлено.</string>
+    <string name="drm_no_limitation">Без ограничения.</string>
+    <string name="serviceClassVideo">Видео</string>
+    <string name="drm_no_license">Нет доступных лицензий DRM.</string>
+    <string name="drm_begin">Начало:</string>
+    <string name="free_memory_btn">Свободное пространство</string>
+    <string name="drm_end">Конец:</string>
+    <string name="drm_use_left">Count left:</string>
+    <string name="drm_protectioninfo_renew">Возобновить</string>
+    <string name="drm_licenseacquisition_title">Приобретение лицензии DRM</string>
+    <string name="drm_licenseacquisition_message">%1$s не имеет лицензии DRM. Вы можете нажать кнопку Заменить, чтобы приобрести лицензию DRM.</string>
+    <string name="drm_toast_license_expired">DRM лицензии истекла.</string>
+    <string name="drm_forwardforbidden_title">Передача запрещена</string>
+    <string name="media_controller_buffering">Буфферизация %d%%...</string>
+    <string name="contact_widget_loading">Загрузка...</string>
+    <string name="drm_forwardforbidden_message">Некоторые защищенные файлы не могут быть переданы.</string>
+    <string name="drm_license_install_success">Установка DRM Лицензии удачна.</string>
+    <string name="media_controller_live">Онлайн</string>
+    <string name="media_controller_playing">Воспроизведение</string>
+    <string name="media_controller_connecting">Подключение...</string>
+    <string name="drm_license_install_fail">Установка DRM Лицензии не удалась.</string>
+    <string name="VideoView_error_text_bad_file">Файл повреждён и не может быть воспроизведён</string>
+    <string name="VideoView_error_text_cannot_connect_to_server">Нет соединения с сервером</string>
+    <string name="VideoView_error_text_type_not_supported">Тип файла не поддерживается.</string>
+    <string name="VideoView_error_text_drm_not_supported">Защищен DRM, это видео не может быть воспроизведено.</string>
+    <string name="drm_secure_timer_title">Неверный DRM защищенные часы</string>
+    <string name="drm_secure_timer_message">Используйте защищенный DRM файлы. Пожалуйста, убедитесь, что подключение данных доступно.</string>
+    <string name="drm_consume_title">Используйте права DRM</string>
+    <string name="drm_consume_message">Ваши действия будут использовать права DRM.</string>
+    <string name="virtual_sim_on_slot1">Виртуальная СИМ 1 вкл.</string>
+    <string name="virtual_sim_on_slot2">Виртуальная СИМ 2 вкл.</string>
+    <string name="virtual_sim_on_slot3">Виртуальная СИМ 3 вкл.</string>
+    <string name="drm_protectioninfo_title">Защита информации</string>
+    <string name="oper_long_46003">China Telecom</string>
+    <string name="oper_short_46003">China Telecom</string>
+    <string name="virtual_sim_on_slot4">Виртуальная СИМ 4 вкл.</string>
+    <string name="invalid_card">Повреждённая карта</string>
+    <string name="RejectCauseTitle">Отказ Сети по причине</string>
+    <string name="MMRejectCause2">SIM не предусмотренна MM # 2</string>
+    <string name="MMRejectCause3">SIM не поддерживает MM #3</string>
+    <string name="virtual_sim_on">Виртуальная СИМ вкл.</string>
+    <string name="sim_missing_slot1">Слот 1: SIM-карта не обнаружена</string>
+    <string name="sim_missing_slot2">Слот 2: SIM-карта не обнаружена</string>
+    <string name="sim_missing_slot3">Слот 3: SIM-карта не обнаружена</string>
+    <string name="sim_missing_slot4">Слот 4: SIM-карта не обнаружена</string>
+    <string name="sim_missing">SIM-карта обнаружена</string>
+    <string name="MMRejectCause5">Сбой вызова MM # 5</string>
+    <string name="MMRejectCause6">Телефон не имеет ММ # 6</string>
+    <string name="sim_missing_detail">Проверьте СИМ карту</string>
+    <string name="wifi_display_bt_hdmi_off_wfd_on">HDMI будет отключен, когда вы включите беспроводной дисплей. Вы хотите продолжить?</string>
+    <string name="wifi_display_wfd_off_hdmi_on">Беспроводной дисплей будет выключен, когда вы включите HDMI. Вы хотите продолжить?</string>
+    <string name="MMRejectCause13">Только Аварийные/SOS звонки</string>
+    <string name="wifi_display_wifi_p2p_disconnect_wfd_connect">Текущее Wi-Fi Direct подключение будет прервано при подключении к беспроводному устройству отображения. Вы хотите продолжить?</string>
+    <string name="sdcard_ready_title">SD карта готова</string>
+    <string name="sdcard_select_default_path">Хотите изменить диск для записи по умолчанию?</string>
+    <string name="sdcard_default_path_change">Диск для записи по умолчанию изменён.</string>
+    <string name="sim_missing_slot1_card">Слот 1: карта не обнаружена</string>
+    <string name="sim_missing_slot2_card">Слот 2: карта не обнаружена</string>
+    <string name="sim_missing_card">Карта не обнаружена</string>
+    <string name="sim_missing_detail_card">Проверьте карту</string>
+    <string name="confirm_flight_mode_title">Включен режим \"Полёт\"</string>
+    <string name="confirm_flight_mode_msg">Выключите режим \"Полёт\" для звонка.</string>
+    <string name="wifi_display_unstable_connection">Нестабильное соединение</string>
+    <string name="wifi_display_connection_is_not_steady">Неустойчивое подключение беспроводного дисплея.</string>
+    <string name="wifi_display_unstable_suggestion">В настоящее время подключение беспроводного дисплея не устойчивое, подойдите ближе к устройству отображения.</string>
+    <string name="usb_storage_ready_title">Внешний USB-накопитель готов</string>
+    <string name="wifi_display_reconnect">Переподключение</string>
+    <string name="wifi_display_disconnect_then_reconnect">Беспроводной дисплей отключен. Повторить?</string>
+    <string name="wifi_display_disconnected">Беспроводной дисплей отключен.</string>
+    <string name="wifi_wps_failed_overlap">Еще WPS сессия была обнаружена. Пожалуйста, повторите попытку через несколько минут.</string>
+    <string name="wifi_display_wfd_and_wifi_are_turned_on">Беспроводной дисплей и Wi-Fi включены.</string>
+    <string name="wifi_display_sound_path_reminder">Мультимедиа не будет воспроизводить с гарнитуры.</string>
+    <string name="confirm_radio_title">СИМ выключена</string>
+    <string name="confirm_radio_msg">Включите перд вызовом</string>
+    <string name="confirm_flight_mode_radio_title">Режим \"Полёт\" активен - СИМ отключена</string>
+    <string name="confirm_flight_mode_radio_msg">Выключите режим \"Полёт\" и включите СИМ перед вызовом.</string>
+    <string name="confirm_unlock_title">СИМ заблокирована</string>
+    <string name="confirm_unlock_msg">Разблокируйте СИМ перед использованием.</string>
+    <string name="wifi_display_change_resolution_reminder">Изменение разрешений - дисплей будет переподключен.</string>
+    <string name="wifi_display_do_not_remind_again">Не напоминать повторно.</string>
+    <string name="wifi_display_wifi_ap_affects_quality">Текущий Wi-Fi доступ может влиять на беспроводной дисплей.</string>
+    <string name="data_conn_only">Только для передачи данных</string>
+    <string name="wifi_display_wait_connection">В ожидании запроса связи с другим устройством.</string>
+    <string name="wifi_display_confirm_connection">хочет получить соединение с Вами.</string>
+    <string name="wifi_display_build_connection">Установка соединения.</string>
+    <string name="Special_Card_Type_Title_Lte_Not_Available">4G сеть не доступна.</string>
+    <string name="Suggest_To_Change_USIM">Запрос на изменение карты для 4G</string>
+    <string name="network_forbidden">запрещено</string>
+    <string name="account_always_ask_title">С запросом</string>
+    <string name="confirm_roaming_title">Роуминг - внимание</string>
+    <string name="confirm_roaming_msg">СИМ карта в роуминге. Использовать?</string>
+    <string name="confirm_button_ok">ОК</string>
+    <string name="confirm_button_cancel">Отменить</string>
+    <string name="confirm_button_unlock">Разблокировать</string>
+    <string name="confirm_button_turn_off">Выключено</string>
+    <string name="confirm_button_turn_on">Включено</string>
+    <string name="confirm_button_yes">Да</string>
+    <string name="confirm_button_no">Нет</string>
+    <string name="url_dialog_choice_title">Сообщение</string>
+    <string name="url_dialog_choice_message">Это откроет браузер, продолжить?</string>
+    <string name="wifi_tether_configure_ssid_default_for_cmcc">MTK Athens15</string>
+    <string name="deleteMail">Резервное копирование почты и карты</string>
+    <string name="storage_withsd">Внутреняя память заполнена. Очистите место или измените путь для записи в настройках.</string>
+    <string name="storage_withoutsd">Внутреняя память заполнена. Очистите место или подключите SD карту.</string>
+    <string name="storage_sd">SD-карта заполнена. Очистите место или измените путь для записи в настройках.</string>
+    <string name="usb_ums_notification_title">Подключить как USB-накопитель</string>
+    <string name="usb_charging_notification_title">Только зарядка по USB</string>
+    <string name="gps_time_sync_fail_str">Время соединения GPS истекло</string>
+    <string name="tethered_notification_message_for_hotspot">%1$d соединено, %2$d блокировано</string>
+    <string name="tethered_notification_message_bandwidth_set">Установить пропускную способность</string>
+    <string name="default_wallpaper_name">По умолчанию</string>
+    <string name="cu_3gnet_name">Интернет-соединение Wal-3G</string>
+    <string name="cu_3gwap_name">沃3G手机上网</string>
+    <string name="cu_3gnet_name_in_lte">沃宽带用户连接互联网</string>
+    <string name="cu_3gwap_name_in_lte">沃宽带用户手机上网</string>
+    <string name="description_direction_right">Сдвиньте вправо для отклонения</string>
+    <string name="description_direction_left">Сдвиньте влево чтобы отложить</string>
+    <string name="description_direction_up">Сдвиньте вверх для отклонения</string>
+    <string name="description_direction_down">Сдвиньте вниз чтобы отложить</string>
+    <string name="press_color_to_apply">Нажмите на Цвет чтобы применить</string>
+    <string name="color_picker_select">-></string>
+    <string name="headset_pin_recognition">Ваши наушники не совместимы с телефоном. Попробуйте другие.</string>
+    <string name="usb_autorun_cdrom_notification_title">Автозапуск как CD-rom</string>
+    <string name="ct_net_name">CTNET</string>
+    <string name="ct_wap_name">CTWAP</string>
+    <string name="hdmi_notification_title">Устройство MHL подключено</string>
+    <string name="hdmi_notification_content">Нажмите для выбора устройства MHL</string>
+    <string name="helmet_notification_title">LeHelmet подключено.</string>
+    <string name="helmet_notification_content">Нажмите для выбора LeHelmet</string>
+    <string name="hdmi_hdvideo_toast">HDMI не может воспроизвести 4К, соединение будет разорвано.</string>
+    <string name="hdmi_mutex_call_content">HDMI остановлено для принятия вызова.</string>
+    <string name="hdmi_replace_hdmi">HDMI</string>
+    <string name="hdmi_replace_mhl">MHL</string>
+    <string name="hdmi_audio_output">Аудио вывод</string>
+    <string name="hdmi_audio_output_stereo">Стерео</string>
+    <string name="hdmi_audio_output_multi_channel">Многоканально</string>
+    <string name="Default_Account_Selection_Content">Аккаунт по умолчанию выбран</string>
+    <string name="media_info_audio_not_supported">Не удалось воспроизвести аудио.</string>
+    <string name="media_info_video_not_supported">This video is not supported.</string>
+    <string name="save_password_label">Confirm</string>
+    <string name="save_password_message">Вы хотите, чтобы браузер запомнил этот пароль?</string>
+    <string name="save_password_notnow">Не сейчас</string>
+    <string name="save_password_remember">Запомнить</string>
+    <string name="save_password_never">Никогда</string>
+    <string name="permlab_wake_device_sensorhub">wake up the phone</string>
+    <string name="permdesc_wake_device_sensorhub">Allows the app to wakeup the phone when it is in suspend mode through sensor hub.</string>
+    <string name="wifi_display_connected_to_wifi_network">Подключено к сети Wi-Fi %1$s.</string>
+    <string name="wifi_p2p_frequency_conflict_message">Телефон будет временно отклюён от Wi-Fi, пока он подключен к %1$s (только при изменении полосы канала и идентификатора текущей точки доступа Wi-Fi в %2$s)</string>
+    <string name="wifi_display_wifi_network_disconnected">Wi-Fi сеть %1$s отключена.</string>
+    <string name="wifi_display_channel_confliction">Конфликт канала</string>
+    <string name="wifi_display_wifi_network_cannot_coexist">Текущая сеть Wi-Fi не может сосуществовать с экраном связи.</string>
+    <string name="permlab_receiveCbSms">接收短信广播</string>
+    <string name="byteShort">B</string>
+    <item type="string" name="APKTOOL_DUMMY_00d4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00d5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00d6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00d7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00d8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00d9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00da">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00db">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00dc">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00dd">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00de">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00df">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00e0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00e1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00e2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00e4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00e5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00e6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00e7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00e8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00e9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00ea">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00eb">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00ec">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00ed">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00ee">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00ef">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00f0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00f1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00f2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00f3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00f4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00f5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00f6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00f7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00f8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00f9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00fa">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00fb">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00fc">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00fd">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00fe">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00ff">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0105">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0106">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0107">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0108">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0109">false</item>
+    <item type="string" name="APKTOOL_DUMMY_010a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_010b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_010c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_010d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_010e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_010f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0110">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0111">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0112">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0113">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0114">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0115">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0116">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0117">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0118">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0119">false</item>
+    <item type="string" name="APKTOOL_DUMMY_011a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_011b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_011c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_011d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_011e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_011f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0120">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0121">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0122">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0123">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0124">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0125">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0126">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0127">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0128">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0129">false</item>
+    <item type="string" name="APKTOOL_DUMMY_012a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_012b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_012c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_012d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_012e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_012f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0130">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0131">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0132">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0133">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0134">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0135">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0136">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0137">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0138">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0139">false</item>
+    <item type="string" name="APKTOOL_DUMMY_013a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_013b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_013c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_013d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_013e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_013f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0140">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0141">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0142">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0143">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0144">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0145">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0146">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0147">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0148">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0149">false</item>
+    <item type="string" name="APKTOOL_DUMMY_014a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_014b">false</item>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wallpaper_options">
+        <item>Обои экрана блокировки</item>
+        <item>Обои домашнего экрана</item>
+        <item>Выбрать обоих</item>
+    </string-array>
+</resources>

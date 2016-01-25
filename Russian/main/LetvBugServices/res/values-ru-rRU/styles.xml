@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="leUIApplicationTheme" parent="@android:style/Theme.Leui">
+        <item name="android:windowBackground">@color/color_white</item>
+    </style>
+    <style name="LeMainUItheme" parent="@android:style/Theme.Leui">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="LeUIMainTheme" parent="@style/leUIApplicationTheme">
+        <item name="android:windowBackground">@color/color_white</item>
+    </style>
+    <style name="LeProgressBar" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:maxHeight">3.0dip</item>
+        <item name="android:progressDrawable">@drawable/le_progressbar</item>
+        <item name="android:minHeight">3.0dip</item>
+    </style>
+    <style name="button_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">20.0dip</item>
+        <item name="android:layout_marginTop">5.0dip</item>
+        <item name="android:layout_marginRight">20.0dip</item>
+    </style>
+    <style name="actionbar_style" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:background">@color/title_bar</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:displayOptions">homeAsUp|showTitle</item>
+        <item name="android:actionBarSize">44.0dip</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+</resources>
